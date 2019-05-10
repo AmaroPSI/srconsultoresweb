@@ -29,8 +29,10 @@ class Noticias extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['imagem', 'titulo', 'texto', 'data'], 'required'],
+            [['titulo', 'texto',], 'required'],
+    
             [['imagem', 'texto'], 'string'],
+            [['imagem'], 'file', 'skipOnEmpty' => true, 'message'=>'png,jpg, files only', 'extensions' => 'png, jpg'],
             [['titulo'], 'string', 'max' => 150],
             [['data'], 'string', 'max' => 15],
         ];
