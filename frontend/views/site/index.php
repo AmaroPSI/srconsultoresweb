@@ -56,7 +56,7 @@ html {
 							<div class="header-column">
 								<div class="header-row">
 									<div class="header-logo">
-										<a href="index.html">
+										<a href="index.php">
 											<img alt="Porto" width="200" height="48" src="img/logo_sr.png">
 										</a>
 									</div>
@@ -83,7 +83,7 @@ html {
 												<nav class="collapse">
 													<ul class="nav nav-pills" id="mainNav">
 														<li class="dropdown dropdown-full-color dropdown-light">
-															<a class="dropdown-item dropdown-toggle active" href="index.html">
+															<a class="dropdown-item dropdown-toggle active" href="index.php">
 																Home
 															</a>
 														</li>
@@ -171,7 +171,7 @@ Dedicamo-nos à prestação de serviços de contabilidade, assessoria fiscal e g
 Procuramos sempre o melhor planeamento fiscal para cada cliente, feito à medida das suas necessidades e sempre em cumprimento das normas fiscais em vigor   Temos ainda um departamento de prestação de serviços a particulares.
 								</p>
 							</div>
-							<div class="col-sm-8 col-md-6 col-lg-4 offset-sm-4 offset-md-4 offset-lg-2 mt-sm-5" style="top: 1.7rem;">
+							<div class="col-sm-8 col-md-6 col-lg-4 offset-sm-4 offset-md-4 offset-lg-2 mt-sm-5" style="top: 18rem;">
 								<img src="img/about1.jpg" class="img-fluid position-absolute d-none d-sm-block appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="300" style="top: 10%; left: -50%;" alt="" />
 								<img src="img/about2.jpg" class="img-fluid position-absolute d-none d-sm-block appear-animation" data-appear-animation="expandIn" style="top: -33%; left: -29%;" alt="" />
 								<img src="img/about3.jpg" class="img-fluid position-relative appear-animation mb-2" data-appear-animation="expandIn" data-appear-animation-delay="600" alt="" />
