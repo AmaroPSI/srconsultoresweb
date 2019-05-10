@@ -46,9 +46,9 @@ class Noticias extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'imagem' => 'Imagem',
-            'titulo' => 'Titulo',
+            'titulo' => 'Título',
             'texto' => 'Texto',
-            'data' => 'Data',
+            'data' => 'Data (dd/mm/yyyy)',
         ];
     }
 }
