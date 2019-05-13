@@ -23,7 +23,9 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'texto') ?>
 
-    <?= $form->field($model, 'data') ?>
+    <?= $form->field($model, 'dia') ?>
+
+    <?php // echo $form->field($model, 'mes') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>

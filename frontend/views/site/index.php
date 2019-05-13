@@ -47,8 +47,7 @@ html {
 		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
 		<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
 		<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
-
-		<link rel="stylesheet" href="css/skins/skin-corporate-3.css">
+		<link rel="stylesheet" href="css/skins/skin-corporate-3.css"> 
 
 		<link rel="stylesheet" href="css/custom.css">
 
@@ -262,113 +261,50 @@ Procuramos sempre o melhor planeamento fiscal para cada cliente, feito à medida
 
 					</div>
 
-				<section id="destaques" class="section section-height-3 bg-primary border-0 m-0 appear-animation" data-appear-animation="fadeIn">
-					<div class="container">
-						<div class="row">
-							<div class="col appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
+	<section id="destaques" class="section section-height-3 bg-primary border-0 m-0 appear-animation" data-appear-animation="fadeIn">
+		<div class="container">
+			<div class="row">
+				<div class="col appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
 								<h2 class="font-weight-bold text-color-light text-6 mb-4">Destaques</h2>
+				</div>
+			</div>
+			<div class="row recent-posts appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
+			<?php
+				$Noticias = $dataProvider->getModels();
+				
+			?>
+
+        <?php
+       		 for ($i = 0 ; $i < count($Noticias); $i++) {
+ 		?>
+ 		<?= Html::beginForm(['visualizar-noticias', 'id' => $Noticias[$i]->id], 'post'); ?>
+            <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+				<article>
+					<div class="row">
+						<div class="col-auto pr-0">
+							<div class="date">
+								<span class="day bg-color-light text-color-black font-weight-extra-bold"><?=$Noticias[$i]->dia; ?> </span>
+								<span class="month bg-color-light font-weight-semibold text-color-primary text-1"><?= $Noticias[$i]->mes; ?></span>
 							</div>
 						</div>
-						<div class="row recent-posts appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
-							<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-								<article>
-									<div class="row">
-										<div class="col">
-											<a href="destaques.php#destaque1" class="text-decoration-none">
-												<img src="<?= Yii::$app->request->baseUrl ?>.../../web/img/blog/blog-corporate-3-1.jpg" class="img-fluid hover-effect-2 mb-3" alt="" />
-											</a>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-auto pr-0">
-											<div class="date">
-												<span class="day bg-color-light text-color-black font-weight-extra-bold">30</span>
-												<span class="month bg-color-light font-weight-semibold text-color-primary text-1">ABR</span>
-											</div>
-										</div>
-										<div class="col pl-1">
-											<h4 class="line-height-3 text-4"><a href="destaques.php#destaque1" class="text-light"><?php ?></a></h4>
-											<p class="text-color-light line-height-5 opacity-6 pr-4 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-											<a href="destaques.php" class="read-more text-color-light font-weight-semibold text-2">read more<i class="fas fa-chevron-right text-1 ml-1"></i></a>
-										</div>
-									</div>
-								</article>
-							</div>
-							<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-								<article>
-									<div class="row">
-										<div class="col">
-											<a href="destaques.html#destaque2" class="text-decoration-none">
-												<img src="<?= Yii::$app->request->baseUrl ?>.../../web/img/blog/blog-corporate-3-2.jpg" class="img-fluid hover-effect-2 mb-3" alt="" />
-											</a>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-auto pr-0">
-											<div class="date">
-												<span class="day bg-color-light text-color-black font-weight-extra-bold">30</span>
-												<span class="month bg-color-light font-weight-semibold text-color-primary text-1">ABR</span>
-											</div>
-										</div>
-										<div class="col pl-1">
-											<h4 class="line-height-3 text-4"><a href="destaques.html#destaque2" class="text-light">Lorem ipsum dolor sit amet, consectetur</a></h4>
-											<p class="text-color-light line-height-5 opacity-6 pr-4 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-											<a href="destaques.html#destaque2" class="read-more text-color-light font-weight-semibold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
-										</div>
-									</div>
-								</article>
-							</div>
-							<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-								<article>
-									<div class="row">
-										<div class="col">
-											<a href="destaques.html#destaque3" class="text-decoration-none">
-												<img src="<?= Yii::$app->request->baseUrl ?>.../../web/img/blog/blog-corporate-3-3.jpg" class="img-fluid hover-effect-2 mb-3" alt="" />
-											</a>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-auto pr-0">
-											<div class="date">
-												<span class="day bg-color-light text-color-black font-weight-extra-bold">30</span>
-												<span class="month bg-color-light font-weight-semibold text-color-primary text-1">ABR</span>
-											</div>
-										</div>
-										<div class="col pl-1">
-											<h4 class="line-height-3 text-4"><a href="destaques.html#destaque3" class="text-light">Lorem ipsum dolor sit amet, consectetur</a></h4>
-											<p class="text-color-light line-height-5 opacity-6 pr-4 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-											<a href="destaques.html#destaque3" class="read-more text-color-light font-weight-semibold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
-										</div>
-									</div>
-								</article>
-							</div>
-							<div class="col-md-6 col-lg-3">
-								<article>
-									<div class="row">
-										<div class="col">
-											<a href="destaques.html#destaque4" class="text-decoration-none">
-												<img src="<?= Yii::$app->request->baseUrl ?>.../../web/img/blog/blog-corporate-3-4.jpg" class="img-fluid hover-effect-2 mb-3" alt="" />
-											</a>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-auto pr-0">
-											<div class="date">
-												<span class="day bg-color-light text-color-black font-weight-extra-bold">30</span>
-												<span class="month bg-color-light font-weight-semibold text-color-primary text-1">ABR</span>
-											</div>
-										</div>
-										<div class="col pl-1">
-											<h4 class="line-height-3 text-4"><a href="destaques.html#destaque4" class="text-light">Lorem ipsum dolor sit amet, consectetur</a></h4>
-											<p class="text-color-light line-height-5 opacity-6 pr-4 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-											<a href="destaques.html#destaque4" class="read-more text-color-light font-weight-semibold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
-										</div>
-									</div>
-								</article>
-							</div>
+
+						<div class="col pl-1">
+							<h4 class="line-height-3 text-4"><a href="destaques.html#destaque3" class="text-light"><?= $Noticias[$i]->titulo; ?></a></h4>
+							<p class="text-color-light line-height-5 opacity-6 pr-4 mb-1"><?= $Noticias[$i]->texto; ?></p>
+							<a href="destaques.html#destaque3" class="read-more text-color-light font-weight-semibold text-2">Ler Mais <i class="fas fa-chevron-right text-1 ml-1"></i>
+								
 						</div>
 					</div>
-				</section>
+				</article>
+			</div>
+            <?= Html::endForm(); ?>
+        <?php }
+        
+        ?>
+
+
+			</div>
+		</section>
 
 				<div id=contactos  class="container py-4">
 
@@ -425,6 +361,12 @@ Procuramos sempre o melhor planeamento fiscal para cada cliente, feito à medida
 				</div>
 			</footer>
 		</div>
+
+
+
+
+
+
 
 		<!-- Vendor -->
 		<script src="vendor/jquery/jquery.min.js"></script>

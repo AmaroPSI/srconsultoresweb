@@ -1,6 +1,9 @@
 <?php
 namespace frontend\controllers;
 
+
+use common\models\NoticiasSearch;
+use common\models\Noticias;
 use frontend\models\ResendVerificationEmailForm;
 use frontend\models\VerifyEmailForm;
 use Yii;
@@ -74,7 +77,18 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $noticias = Noticias::find()->all();
+
+        $searchModelNoticias = new NoticiasSearch();
+        $searchModelNoticias->load(Yii::$app->request->post());
+        $dataProvider = $searchModelNoticias->search(Yii::$app->request->queryParams);
+
+        return $this->render('index',[
+            'noticias' => $noticias,
+            'searchModelNoticias' => $searchModelNoticias,
+            'dataProvider' => $dataProvider,
+
+        ]);
     }
 
     /**
