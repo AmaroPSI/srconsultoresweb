@@ -11,6 +11,7 @@ use yii\helpers\Html;
 html {
   scroll-behavior: smooth;
 }
+
 </style>
 	<head>
 
@@ -23,8 +24,8 @@ html {
 		<meta name="description" content="Porto - Responsive HTML5 Template">
 		<meta name="author" content="okler.net">
 
-		<link rel="shortcut icon" href="../../web/img/icon_sr.png" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="../../web/img/icon_sr.png">
+		<link rel="shortcut icon" href="img/icon_sr.png?v=1" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="img/icon_sr.png?v=1">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
@@ -61,7 +62,7 @@ html {
 								<div class="header-row">
 									<div class="header-logo">
 										<a href="index.php">
-											<img alt="Porto" width="200" height="48" src="../../web/img/logo_sr.png">
+											<img alt="Porto" width="200" height="48" src="<?= Yii::$app->request->baseUrl ?>../../web/img/logo_sr.png">
 										</a>
 									</div>
 								</div>
@@ -70,7 +71,7 @@ html {
 								<div class="header-row">
 									<ul class="header-extra-info d-flex align-items-center">
 										<li class="d-none d-sm-inline-flex">
-											<img src="../../web/img/icone fb.png" a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class=""></i></a>
+											<img src="<?= Yii::$app->request->baseUrl ?>../../web/img/icone fb.png" a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class=""></i></a>
 										</li>
 									</ul>
 								</div>
@@ -128,36 +129,14 @@ html {
 	<body>
 		<div class="body">
 			<div role="main" class="main">
-				<div class="slider-container rev_slider_wrapper" style="height: 100vh;">
-					<div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'sliderLayout': 'fullscreen', 'delay': 9000, 'gridwidth': 1170, 'gridheight': 700, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,500], 'navigation' : {'arrows': { 'enable': true, 'style': 'arrows-style-1 arrows-big' }, 'bullets': {'enable': false, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}">
-						<ul>
-							<li>
-								<img src="../../web/img/SLIDER.jpg"
-									alt=""
-									data-bgposition="center center" 
-									data-bgfit="cover" 
-									data-bgrepeat="no-repeat" 
-									class="rev-slidebg">
-
-								<div class="tp-caption d-none d-md-block"
-									data-frames='[{"delay":500,"speed":500,"frame":"0","from":"opacity:0;x:10%;","to":"opacity:1;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-									data-x="center" data-hoffset="['100','100','100','135']"
-									data-y="center" data-voffset="['-92','-92','-92','-100']"></div>
-
-								<div class="tp-caption font-weight-bold text-color-light negative-ls-2"
-									data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-									data-x="center"
-									data-y="center" data-voffset="['-60','-60','-60','-85']"
-									data-fontsize="['50','50','50','90']"
-									data-lineheight="['55','55','55','95']"
-									data-letterspacing="0" style="text-shadow: 3px 3px 6px #212529;">SOLUÇÕES INTEGRADAS <br><center>DE GESTÃO<center></div>								
-							</li>
-
-								<div class="tp-dottedoverlay tp-opacity-overlay"></div>
-							</li>
-						</ul>
-					</div>
-				</div>
+                <div>
+                    <img src="<?= Yii::$app->request->baseUrl ?>.../../web/img/SLIDER.jpg">
+                    <div class="Inicio" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+                    text-shadow: rgb(33, 37, 41) 3px 3px 6px; visibility: inherit; transition: none 0s ease 0s; text-align: inherit;
+                    line-height: 48px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 700; font-size: 60px;
+                    white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; filter: blur(0px); opacity: 1;
+                     transform-origin: 50% 50% 0px; color: #FFF !important;">Soluções Integradas de Gestão</div>
+                </div>
 				
 				<section id="quemsomos"class="section section-height-3 bg-color-grey-scale-1 m-0 border-0">
 					<div class="container">
@@ -176,9 +155,9 @@ Procuramos sempre o melhor planeamento fiscal para cada cliente, feito à medida
 								</p>
 							</div>
 							<div class="col-sm-8 col-md-6 col-lg-4 offset-sm-4 offset-md-4 offset-lg-2 mt-sm-5" style="top: 18rem;">
-								<img src="../../web/img/about1.jpg" class="img-fluid position-absolute d-none d-sm-block appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="300" style="top: 10%; left: -50%;" alt="" />
-								<img src="../../web/img/about2.jpg" class="img-fluid position-absolute d-none d-sm-block appear-animation" data-appear-animation="expandIn" style="top: -33%; left: -29%;" alt="" />
-								<img src="../../web/img/about3.jpg" class="img-fluid position-relative appear-animation mb-2" data-appear-animation="expandIn" data-appear-animation-delay="600" alt="" />
+								<img src="<?= Yii::$app->request->baseUrl ?>.../../web/img/about1.jpg" class="img-fluid position-absolute d-none d-sm-block appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="300" style="top: 10%; left: -50%;" alt="" />
+								<img src="<?= Yii::$app->request->baseUrl ?>.../../web/img/about2.jpg" class="img-fluid position-absolute d-none d-sm-block appear-animation" data-appear-animation="expandIn" style="top: -33%; left: -29%;" alt="" />
+								<img src="<?= Yii::$app->request->baseUrl ?>.../../web/img/about3.jpg" class="img-fluid position-relative appear-animation mb-2" data-appear-animation="expandIn" data-appear-animation-delay="600" alt="" />
 							</div>
 						</div>
 					</div>
@@ -228,7 +207,7 @@ Procuramos sempre o melhor planeamento fiscal para cada cliente, feito à medida
 									<div class="col-half-section-right" style=" display : block; margin : auto;">
 										<br>
 										<br>
-									<a href="pdf/plano-profissional.pdf" download="Plano Profissional" target="_blank">                                        <img style="display: block; margin-left: auto; margin-right: auto;width:50px;height: 50px;" src="../../web/img/iconepdf1.png">                                    </a>
+									<a href="<?= Yii::$app->request->baseUrl ?>.pdf/plano-profissional.pdf" download="Plano Profissional" target="_blank">                                        <img style="display: block; margin-left: auto; margin-right: auto;width:50px;height: 50px;" src="<?= Yii::$app->request->baseUrl ?>.../../web/img/iconepdf1.png">                                    </a>
 									</div>
 								</div>
 							</div>
@@ -248,8 +227,8 @@ Procuramos sempre o melhor planeamento fiscal para cada cliente, feito à medida
 										<br>
 										<br>
 										<br>
-										<a href="pdf/plano-excelencia.pdf" download="Plano Excelência" target="_blank"> 
-                                        <img style="display: block; margin-left: auto; margin-right: auto;width:50px;height: 50px;" src="../../web/img/iconepdf2.png"> </a>
+										<a href="pdf/plano-excelencia.pdf" download="Plano Excelência" target="_blank">
+                                        <img style="display: block; margin-left: auto; margin-right: auto;width:50px;height: 50px;" src="<?= Yii::$app->request->baseUrl ?>.../../web/img/iconepdf2.png"> </a>
 									</div>
 								</div>
 							</div>
@@ -270,7 +249,7 @@ Procuramos sempre o melhor planeamento fiscal para cada cliente, feito à medida
 									<div data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
 										<br>
 										<br>
-										<a href="pdf/particulares.pdf" download="Particulares" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;width:50px;height: 50px;" src="../../web/img/iconepdf3.png">                                    </a>
+										<a href="<?= Yii::$app->request->baseUrl ?>.pdf/particulares.pdf" download="Particulares" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;width:50px;height: 50px;" src="<?= Yii::$app->request->baseUrl ?>.../../web/img/iconepdf3.png">                                    </a>
 									</div>
 								</section>
 							</div>
@@ -313,6 +292,7 @@ Procuramos sempre o melhor planeamento fiscal para cada cliente, feito à medida
 							<p class="text-color-light line-height-5 opacity-6 pr-4 mb-1"><?= $Noticias[$i]->texto; ?></p>
 							<a href="destaques.html#destaque3" class="read-more text-color-light font-weight-semibold text-2">Ler Mais <i class="fas fa-chevron-right text-1 ml-1"></i>
 								
+
 						</div>
 					</div>
 				</article>
@@ -332,7 +312,7 @@ Procuramos sempre o melhor planeamento fiscal para cada cliente, feito à medida
 							<div class="col-lg-4">
 								
 								<div class="overflow-hidden mb-3">
-									<img style="width: 40%;" src="../../web/img/logo_sr.png">
+									<img style="width: 40%;" src="<?= Yii::$app->request->baseUrl ?>.../../web/img/logo_sr.png">
 								</div>
 								<div class="overflow-hidden mb-3">
 									<p class="mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="600" data-plugin-options="{'accY': -200}">Prestação de Serviços de Contabilidade, Assessoria Fiscal, Gestão de Recursos Humanos e Serviços a Particulares</p>

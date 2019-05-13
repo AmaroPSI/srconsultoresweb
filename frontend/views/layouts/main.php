@@ -20,8 +20,13 @@ AppAsset::register($this);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php $this->registerCsrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?></title>
+    <title>SR Consultores</title>
+
+    <link rel="shortcut icon" href="img/icon_sr.png?v=1" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/icon_sr.png?v=1">
+
     <?php $this->head() ?>
+
 </head>
 <body>
 <?php $this->beginBody() ?>
