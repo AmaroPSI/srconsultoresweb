@@ -1,6 +1,7 @@
 ﻿<?php
 
 use common\models\Noticias;
+use yii\helpers\Html;
 
 ?>
 
@@ -273,7 +274,7 @@ Procuramos sempre o melhor planeamento fiscal para cada cliente, feito à medida
 								<article>
 									<div class="row">
 										<div class="col">
-											<a href="destaques.html#destaque1" class="text-decoration-none">
+											<a href="destaques.php#destaque1" class="text-decoration-none">
 												<img src="<?= Yii::$app->request->baseUrl ?>.../../web/img/blog/blog-corporate-3-1.jpg" class="img-fluid hover-effect-2 mb-3" alt="" />
 											</a>
 										</div>
@@ -286,9 +287,9 @@ Procuramos sempre o melhor planeamento fiscal para cada cliente, feito à medida
 											</div>
 										</div>
 										<div class="col pl-1">
-											<h4 class="line-height-3 text-4"><a href="destaques.html#destaque1" class="text-light"><?php ?></a></h4>
+											<h4 class="line-height-3 text-4"><a href="destaques.php#destaque1" class="text-light"><?php ?></a></h4>
 											<p class="text-color-light line-height-5 opacity-6 pr-4 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-											<a href="destaques.html#destaque1" class="read-more text-color-light font-weight-semibold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
+											<a href="destaques.php" class="read-more text-color-light font-weight-semibold text-2">read more<i class="fas fa-chevron-right text-1 ml-1"></i></a>
 										</div>
 									</div>
 								</article>
