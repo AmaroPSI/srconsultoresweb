@@ -11,8 +11,7 @@ use Yii;
  * @property resource $imagem
  * @property string $titulo
  * @property string $texto
- * @property int $dia
- * @property string $mes
+ * @property string $data
  */
 class Noticias extends \yii\db\ActiveRecord
 {
@@ -30,11 +29,12 @@ class Noticias extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['titulo', 'texto', 'dia', 'mes'], 'required'],
-            [['imagem'], 'file', 'skipOnEmpty' => true, 'on' => 'update-photo-upload', 'message'=>'png,jpg, files only', 'extensions' => 'png, jpg'],
-            [['imagem', 'texto', 'mes'], 'string'],
-            [['dia'], 'integer'],
+            [['titulo', 'texto',], 'required'],
+    
+            [['imagem', 'texto'], 'string'],
+            [['imagem'], 'file', 'skipOnEmpty' => true, 'message'=>'png,jpg, files only', 'extensions' => 'png, jpg'],
             [['titulo'], 'string', 'max' => 150],
+            [['data'], 'string', 'max' => 15],
         ];
     }
 
@@ -46,10 +46,9 @@ class Noticias extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'imagem' => 'Imagem',
-            'titulo' => 'Titulo',
+            'titulo' => 'Título',
             'texto' => 'Texto',
-            'dia' => 'Dia',
-            'mes' => 'Mes',
+            'data' => 'Data (dd/mm/yyyy)',
         ];
     }
 }
