@@ -1751,3 +1751,2277 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1557735775.55
     'REQUEST_TIME' => 1557735775
 ]
+2019-05-13 11:27:42 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][Error] Error: Class 'frontend\controllers\NoticiasSearch' not found in C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php:79
+Stack trace:
+#0 [internal function]: frontend\controllers\SiteController->actionIndex()
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#4 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#7 {main}
+2019-05-13 11:27:38 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'fem4vkji1gm40rdd5bossgv8fl'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => 'cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"cvAbOCjrc9Ng3bE119lq4BA20k3agrfg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=fem4vkji1gm40rdd5bossgv8fl; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22cvAbOCjrc9Ng3bE119lq4BA20k3agrfg%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '60031'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557739656.963
+    'REQUEST_TIME' => 1557739656
+]
+2019-05-13 11:31:25 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][ParseError] ParseError: syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:156
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(87): yii\base\Controller->render('index', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#11 {main}
+2019-05-13 11:31:25 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'fem4vkji1gm40rdd5bossgv8fl'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => 'cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"cvAbOCjrc9Ng3bE119lq4BA20k3agrfg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=fem4vkji1gm40rdd5bossgv8fl; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22cvAbOCjrc9Ng3bE119lq4BA20k3agrfg%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '60085'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557739885.577
+    'REQUEST_TIME' => 1557739885
+]
+2019-05-13 11:31:31 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][ParseError] ParseError: syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:156
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(87): yii\base\Controller->render('index', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#11 {main}
+2019-05-13 11:31:31 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'fem4vkji1gm40rdd5bossgv8fl'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => 'cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"cvAbOCjrc9Ng3bE119lq4BA20k3agrfg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=fem4vkji1gm40rdd5bossgv8fl; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22cvAbOCjrc9Ng3bE119lq4BA20k3agrfg%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '60087'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557739891.559
+    'REQUEST_TIME' => 1557739891
+]
+2019-05-13 11:31:37 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][ParseError] ParseError: syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:156
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(87): yii\base\Controller->render('index', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#11 {main}
+2019-05-13 11:31:37 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'fem4vkji1gm40rdd5bossgv8fl'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => 'cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"cvAbOCjrc9Ng3bE119lq4BA20k3agrfg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=fem4vkji1gm40rdd5bossgv8fl; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22cvAbOCjrc9Ng3bE119lq4BA20k3agrfg%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '60093'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557739897.291
+    'REQUEST_TIME' => 1557739897
+]
+2019-05-13 11:31:59 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][ParseError] ParseError: syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:156
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(87): yii\base\Controller->render('index', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#11 {main}
+2019-05-13 11:31:59 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'fem4vkji1gm40rdd5bossgv8fl'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => 'cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"cvAbOCjrc9Ng3bE119lq4BA20k3agrfg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=fem4vkji1gm40rdd5bossgv8fl; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22cvAbOCjrc9Ng3bE119lq4BA20k3agrfg%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '60097'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557739919.745
+    'REQUEST_TIME' => 1557739919
+]
+2019-05-13 11:32:13 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][ParseError] ParseError: syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:156
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(87): yii\base\Controller->render('index', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#11 {main}
+2019-05-13 11:32:13 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'fem4vkji1gm40rdd5bossgv8fl'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => 'cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"cvAbOCjrc9Ng3bE119lq4BA20k3agrfg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=fem4vkji1gm40rdd5bossgv8fl; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22cvAbOCjrc9Ng3bE119lq4BA20k3agrfg%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '60107'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557739933.532
+    'REQUEST_TIME' => 1557739933
+]
+2019-05-13 11:32:30 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][ParseError] ParseError: syntax error, unexpected end of file in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:575
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(87): yii\base\Controller->render('index', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#11 {main}
+2019-05-13 11:32:30 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'fem4vkji1gm40rdd5bossgv8fl'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => 'cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"cvAbOCjrc9Ng3bE119lq4BA20k3agrfg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=fem4vkji1gm40rdd5bossgv8fl; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22cvAbOCjrc9Ng3bE119lq4BA20k3agrfg%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '60111'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557739950.428
+    'REQUEST_TIME' => 1557739950
+]
+2019-05-13 11:32:58 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][ParseError] ParseError: syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:156
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(87): yii\base\Controller->render('index', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#11 {main}
+2019-05-13 11:32:58 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'fem4vkji1gm40rdd5bossgv8fl'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => 'cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"cvAbOCjrc9Ng3bE119lq4BA20k3agrfg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=fem4vkji1gm40rdd5bossgv8fl; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22cvAbOCjrc9Ng3bE119lq4BA20k3agrfg%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '60114'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557739978.12
+    'REQUEST_TIME' => 1557739978
+]
+2019-05-13 11:33:00 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][Error] Error: Class 'Html' not found in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:139
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(87): yii\base\Controller->render('index', Array)
+#5 [internal function]: frontend\controllers\SiteController->actionIndex()
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#10 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#12 {main}
+2019-05-13 11:33:00 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'fem4vkji1gm40rdd5bossgv8fl'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => 'cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"cvAbOCjrc9Ng3bE119lq4BA20k3agrfg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=fem4vkji1gm40rdd5bossgv8fl; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22cvAbOCjrc9Ng3bE119lq4BA20k3agrfg%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '60113'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557739980.727
+    'REQUEST_TIME' => 1557739980
+]
+2019-05-13 11:35:51 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 20 in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:402
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php(402): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 402, Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(87): yii\base\Controller->render('index', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#13 {main}
+2019-05-13 11:35:51 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'fem4vkji1gm40rdd5bossgv8fl'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => 'cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"cvAbOCjrc9Ng3bE119lq4BA20k3agrfg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=fem4vkji1gm40rdd5bossgv8fl; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22cvAbOCjrc9Ng3bE119lq4BA20k3agrfg%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '60161'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557740151.355
+    'REQUEST_TIME' => 1557740151
+]
+2019-05-13 11:36:43 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 0 in C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\helpers\BaseUrl.php:99
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\helpers\BaseUrl.php(99): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\helpers\BaseUrl.php(214): yii\helpers\BaseUrl::toRoute(Array, false)
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\helpers\BaseHtml.php(332): yii\helpers\BaseUrl::to(Array)
+#3 C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php(140): yii\helpers\BaseHtml::beginForm(Array, 'post')
+#4 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#8 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(87): yii\base\Controller->render('index', Array)
+#9 [internal function]: frontend\controllers\SiteController->actionIndex()
+#10 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#13 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#14 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#16 {main}
+2019-05-13 11:36:43 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'fem4vkji1gm40rdd5bossgv8fl'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => 'cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"cvAbOCjrc9Ng3bE119lq4BA20k3agrfg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=fem4vkji1gm40rdd5bossgv8fl; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22cvAbOCjrc9Ng3bE119lq4BA20k3agrfg%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '60185'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557740203.057
+    'REQUEST_TIME' => 1557740203
+]
+2019-05-13 11:36:55 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 0 in C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\helpers\BaseUrl.php:99
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\helpers\BaseUrl.php(99): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\helpers\BaseUrl.php(214): yii\helpers\BaseUrl::toRoute(Array, false)
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\helpers\BaseHtml.php(332): yii\helpers\BaseUrl::to(Array)
+#3 C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php(140): yii\helpers\BaseHtml::beginForm(Array, 'post')
+#4 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#8 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(87): yii\base\Controller->render('index', Array)
+#9 [internal function]: frontend\controllers\SiteController->actionIndex()
+#10 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#13 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#14 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#16 {main}
+2019-05-13 11:36:55 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'fem4vkji1gm40rdd5bossgv8fl'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => 'cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"cvAbOCjrc9Ng3bE119lq4BA20k3agrfg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=fem4vkji1gm40rdd5bossgv8fl; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=cc062df39569df1e5463b2263475517782c3a4930f5699b2f61295290daee77ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22cvAbOCjrc9Ng3bE119lq4BA20k3agrfg%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '60190'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557740215.274
+    'REQUEST_TIME' => 1557740215
+]
+2019-05-13 12:35:19 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\Noticias::data in C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('data')
+#1 C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php(522): yii\db\BaseActiveRecord->__get('data')
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(87): yii\base\Controller->render('index', Array)
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#11 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#12 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#14 {main}
+2019-05-13 12:35:19 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'utcbn0oefh6aiva0tn5rvkrf4p'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => '3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=utcbn0oefh6aiva0tn5rvkrf4p; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '63420'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557743719.044
+    'REQUEST_TIME' => 1557743719
+]
+2019-05-13 12:36:12 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\Noticias::data in C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('data')
+#1 C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php(530): yii\db\BaseActiveRecord->__get('data')
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(87): yii\base\Controller->render('index', Array)
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#11 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#12 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#14 {main}
+2019-05-13 12:36:12 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'utcbn0oefh6aiva0tn5rvkrf4p'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => '3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=utcbn0oefh6aiva0tn5rvkrf4p; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '63468'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557743772.092
+    'REQUEST_TIME' => 1557743772
+]
+2019-05-13 12:52:07 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][ParseError] ParseError: syntax error, unexpected 'noticias' (T_STRING) in C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php:85
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(637): class_exists('frontend\\contro...')
+#3 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('')
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#8 {main}
+2019-05-13 12:52:07 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'utcbn0oefh6aiva0tn5rvkrf4p'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => '3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=utcbn0oefh6aiva0tn5rvkrf4p; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64503'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557744727.083
+    'REQUEST_TIME' => 1557744727
+]
+2019-05-13 12:52:32 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][ParseError] ParseError: syntax error, unexpected 'Noticias' (T_STRING) in C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php:85
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(637): class_exists('frontend\\contro...')
+#3 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('')
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#8 {main}
+2019-05-13 12:52:32 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'utcbn0oefh6aiva0tn5rvkrf4p'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => '3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=utcbn0oefh6aiva0tn5rvkrf4p; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64533'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557744752.373
+    'REQUEST_TIME' => 1557744752
+]
+2019-05-13 12:52:36 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][ParseError] ParseError: syntax error, unexpected 'NOTICIAS' (T_STRING) in C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php:85
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(637): class_exists('frontend\\contro...')
+#3 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('')
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#8 {main}
+2019-05-13 12:52:36 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'utcbn0oefh6aiva0tn5rvkrf4p'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => '3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=utcbn0oefh6aiva0tn5rvkrf4p; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64532'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557744756.629
+    'REQUEST_TIME' => 1557744756
+]
+2019-05-13 12:53:18 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][ParseError] ParseError: syntax error, unexpected '?>', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:364
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(88): yii\base\Controller->render('index', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#11 {main}
+2019-05-13 12:53:17 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'utcbn0oefh6aiva0tn5rvkrf4p'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => '3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=utcbn0oefh6aiva0tn5rvkrf4p; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64603'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557744797.318
+    'REQUEST_TIME' => 1557744797
+]
+2019-05-13 12:53:38 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][yii\base\ErrorException:8] yii\base\ErrorException: Indirect modification of overloaded property common\models\Noticias::$id has no effect in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:358
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php(358): yii\base\ErrorHandler->handleError(8, 'Indirect modifi...', 'C:\\xampp\\htdocs...', 358, Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(88): yii\base\Controller->render('index', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#13 {main}
+2019-05-13 12:53:37 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'utcbn0oefh6aiva0tn5rvkrf4p'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => '3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=utcbn0oefh6aiva0tn5rvkrf4p; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64621'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557744817.973
+    'REQUEST_TIME' => 1557744817
+]
+2019-05-13 13:01:35 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][ParseError] ParseError: syntax error, unexpected 'in' (T_STRING) in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:359
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(90): yii\base\Controller->render('index', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#11 {main}
+2019-05-13 13:01:35 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'utcbn0oefh6aiva0tn5rvkrf4p'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => '3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=utcbn0oefh6aiva0tn5rvkrf4p; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '65141'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557745295.58
+    'REQUEST_TIME' => 1557745295
+]
+2019-05-13 13:02:42 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][ParseError] ParseError: syntax error, unexpected ',' in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:359
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(90): yii\base\Controller->render('index', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#11 {main}
+2019-05-13 13:02:42 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'utcbn0oefh6aiva0tn5rvkrf4p'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => '3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=utcbn0oefh6aiva0tn5rvkrf4p; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '65216'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557745362.429
+    'REQUEST_TIME' => 1557745362
+]
+2019-05-13 13:02:50 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][ParseError] ParseError: syntax error, unexpected '$i' (T_VARIABLE) in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:359
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(90): yii\base\Controller->render('index', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#11 {main}
+2019-05-13 13:02:50 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'utcbn0oefh6aiva0tn5rvkrf4p'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => '3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=utcbn0oefh6aiva0tn5rvkrf4p; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '65226'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557745370.38
+    'REQUEST_TIME' => 1557745370
+]
+2019-05-13 13:04:44 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][ParseError] ParseError: syntax error, unexpected ';' in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:357
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(90): yii\base\Controller->render('index', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#11 {main}
+2019-05-13 13:04:44 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'utcbn0oefh6aiva0tn5rvkrf4p'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => '3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=utcbn0oefh6aiva0tn5rvkrf4p; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '65370'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557745484.427
+    'REQUEST_TIME' => 1557745484
+]
+2019-05-13 13:10:31 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][yii\base\ErrorException:2] yii\base\ErrorException: Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:358
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php(358): yii\base\ErrorHandler->handleError(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 358, Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(89): yii\base\Controller->render('index', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#13 {main}
+2019-05-13 13:10:31 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'utcbn0oefh6aiva0tn5rvkrf4p'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => '3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=utcbn0oefh6aiva0tn5rvkrf4p; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '49405'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557745831.078
+    'REQUEST_TIME' => 1557745831
+]
+2019-05-13 13:10:38 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'id' of non-object in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:358
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php(358): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 358, Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(89): yii\base\Controller->render('index', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#13 {main}
+2019-05-13 13:10:38 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'utcbn0oefh6aiva0tn5rvkrf4p'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => '3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=utcbn0oefh6aiva0tn5rvkrf4p; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '49414'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557745838.472
+    'REQUEST_TIME' => 1557745838
+]
+2019-05-13 13:10:47 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'id' of non-object in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:358
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php(358): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 358, Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(89): yii\base\Controller->render('index', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#13 {main}
+2019-05-13 13:10:47 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'utcbn0oefh6aiva0tn5rvkrf4p'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => '3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=utcbn0oefh6aiva0tn5rvkrf4p; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '49425'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557745847.789
+    'REQUEST_TIME' => 1557745847
+]
+2019-05-13 13:13:06 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 0 in C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\helpers\BaseUrl.php:99
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\helpers\BaseUrl.php(99): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\helpers\BaseUrl.php(214): yii\helpers\BaseUrl::toRoute(Array, false)
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\helpers\BaseHtml.php(332): yii\helpers\BaseUrl::to(Array)
+#3 C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php(362): yii\helpers\BaseHtml::beginForm(Array, 'post')
+#4 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#8 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(89): yii\base\Controller->render('index', Array)
+#9 [internal function]: frontend\controllers\SiteController->actionIndex()
+#10 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#13 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#14 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#16 {main}
+2019-05-13 13:13:05 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'utcbn0oefh6aiva0tn5rvkrf4p'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => '3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=utcbn0oefh6aiva0tn5rvkrf4p; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '49562'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557745985.917
+    'REQUEST_TIME' => 1557745985
+]
+2019-05-13 13:13:37 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][yii\base\ErrorException:2] yii\base\ErrorException: count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:358
+Stack trace:
+#0 C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php(358): yii\base\ErrorHandler->handleError(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 358, Array)
+#1 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\srconsultoresweb\frontend\controllers\SiteController.php(89): yii\base\Controller->render('index', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#13 {main}
+2019-05-13 13:13:37 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'utcbn0oefh6aiva0tn5rvkrf4p'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => '3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=utcbn0oefh6aiva0tn5rvkrf4p; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '49598'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557746017.552
+    'REQUEST_TIME' => 1557746017
+]
+2019-05-13 13:13:58 [::1][-][5t27maru6hubhdoqufu3jilmtt][error][yii\base\ErrorException:1] yii\base\ErrorException: Allowed memory size of 33554432 bytes exhausted (tried to allocate 14696448 bytes) in C:\xampp\htdocs\srconsultoresweb\frontend\views\site\index.php:360
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-05-13 13:13:58 [::1][-][5t27maru6hubhdoqufu3jilmtt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'tajfbaupcc2jvjinpcd8v26khc'
+    '_csrf-frontend' => '7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK\";}'
+    'advanced-frontend' => '5t27maru6hubhdoqufu3jilmtt'
+    'advanced-backend' => 'utcbn0oefh6aiva0tn5rvkrf4p'
+    '_identity-backend' => '2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"rrHLD_oX52104vmHoXfz-aNmhVmkXMsG\",2592000]\";}'
+    '_csrf-backend' => '3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=tajfbaupcc2jvjinpcd8v26khc; _csrf-frontend=7a953e09625ee2976d875b2bbec52b654e0999d2c0fe387247aeeedb9cae7ea9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KzZ9XocRju1q9txbCYLMYfBHRdMuX7WK%22%3B%7D; advanced-frontend=5t27maru6hubhdoqufu3jilmtt; advanced-backend=utcbn0oefh6aiva0tn5rvkrf4p; _identity-backend=2fd10a5d47194e821334b3fe773c25d891e7a1526a35c0acbb9c8ba7b9b0477fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; _csrf-backend=3e6ecdd5a20528da844126489d74a655d04cdc158ae3f4a72e6bad8c107bfbb5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22l_T97p_PiqvDXD5eSIQkyYg0_TWt8PM_%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Gonca\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Gonca\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '49619'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557746038.28
+    'REQUEST_TIME' => 1557746038
+]
