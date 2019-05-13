@@ -13,17 +13,15 @@ use yii\widgets\ActiveForm;
     <?php $form = ActiveForm::begin(); ?>
 
     <?= $form->field($model, 'imagem')->fileInput() ?>
-    
+
     <?= $form->field($model, 'titulo')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'texto')->textarea(['rows' => 6]) ?>
 
-    <?= $form->field($model, 'dia')->textInput() ?>
-
-    <?= $form->field($model, 'mes')->textarea(['rows' => 1]) ?>
+    <?= $form->field($model, 'data')->textInput(['maxlength' => true]) ?>
 
     <div class="form-group">
-        <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
+        <?= Html::submitButton('Guardar', ['class' => 'btn btn-success']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>
