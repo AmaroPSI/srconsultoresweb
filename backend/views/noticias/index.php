@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Noticias', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Criar Noticia', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
@@ -23,6 +23,8 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
+        'summary'=> '', 
+
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
@@ -31,7 +33,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'titulo',
             'texto:ntext',
             'dia',
-            //'mes:ntext',
+            'mes',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
