@@ -82,7 +82,7 @@ class SiteController extends Controller
         $searchModelNoticias->load(Yii::$app->request->post());
         $dataProvider = $searchModelNoticias->search(Yii::$app->request->queryParams);
 
-        return $this->render('index',[
+        return $this->render('index', [
             'model' => $model,
             'searchModelNoticias' => $searchModelNoticias,
             'dataProvider' => $dataProvider,
@@ -268,7 +268,20 @@ class SiteController extends Controller
     }
 
     public function actionDestaques(){
-        return $this->render('destaques');
+
+        $model = Noticias::find()->all();
+
+        $searchModelNoticias = new NoticiasSearch();
+        $searchModelNoticias->load(Yii::$app->request->post());
+        $dataProvider = $searchModelNoticias->search(Yii::$app->request->queryParams);
+
+        return $this->render('destaques', [
+            'model' => $model,
+            'searchModelNoticias' => $searchModelNoticias,
+            'dataProvider' => $dataProvider,
+
+        ]);
+
     }
 
 }
