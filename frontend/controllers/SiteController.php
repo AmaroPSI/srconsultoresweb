@@ -257,4 +257,9 @@ class SiteController extends Controller
             'model' => $model
         ]);
     }
+
+    public function actionDestaques(){
+        return $this->render('destaques');
+    }
+
 }

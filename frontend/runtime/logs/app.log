@@ -1754,3 +1754,1632 @@ $_SERVER = [
     'REQUEST_TIME' => 1557735775
 ]
 >>>>>>> parent of 4c9a60b... aasd
+2019-05-13 16:45:45 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "destaques". in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('destaques', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 16:45:44 [::1][-][-][info][application] $_GET = [
+    'r' => 'destaques'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_identity-backend' => 'daecede4dc8e419362a6da79b48b5751bc6f68961cf8092a7cb7d68cdcf6bbb8a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[3,\"GCITGJDn0avYixZ3tSuZF9yAP_-euZJu\",2592000]\";}'
+    '_csrf-frontend' => '3eb1a85f235e9cdef0614222c6b3476180324b095d03f69b993ef0a33c175eb9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"gUa2_XaekoJ74cbzCTkRFhjrc78_SaLO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/srconsultoresweb/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _identity-backend=daecede4dc8e419362a6da79b48b5751bc6f68961cf8092a7cb7d68cdcf6bbb8a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22GCITGJDn0avYixZ3tSuZF9yAP_-euZJu%22%2C2592000%5D%22%3B%7D; _csrf-frontend=3eb1a85f235e9cdef0614222c6b3476180324b095d03f69b993ef0a33c175eb9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22gUa2_XaekoJ74cbzCTkRFhjrc78_SaLO%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64408'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=destaques'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=destaques'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557765944.78
+    'REQUEST_TIME' => 1557765944
+]
+2019-05-13 16:45:55 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "destaques". in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('destaques', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 16:45:55 [::1][-][-][info][application] $_GET = [
+    'r' => 'destaques'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_identity-backend' => 'daecede4dc8e419362a6da79b48b5751bc6f68961cf8092a7cb7d68cdcf6bbb8a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[3,\"GCITGJDn0avYixZ3tSuZF9yAP_-euZJu\",2592000]\";}'
+    '_csrf-frontend' => '3eb1a85f235e9cdef0614222c6b3476180324b095d03f69b993ef0a33c175eb9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"gUa2_XaekoJ74cbzCTkRFhjrc78_SaLO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/srconsultoresweb/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _identity-backend=daecede4dc8e419362a6da79b48b5751bc6f68961cf8092a7cb7d68cdcf6bbb8a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22GCITGJDn0avYixZ3tSuZF9yAP_-euZJu%22%2C2592000%5D%22%3B%7D; _csrf-frontend=3eb1a85f235e9cdef0614222c6b3476180324b095d03f69b993ef0a33c175eb9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22gUa2_XaekoJ74cbzCTkRFhjrc78_SaLO%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64421'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=destaques'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=destaques'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557765955.035
+    'REQUEST_TIME' => 1557765955
+]
+2019-05-13 16:45:59 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "destaques". in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('destaques', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 16:45:59 [::1][-][-][info][application] $_GET = [
+    'r' => 'destaques'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_identity-backend' => 'daecede4dc8e419362a6da79b48b5751bc6f68961cf8092a7cb7d68cdcf6bbb8a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[3,\"GCITGJDn0avYixZ3tSuZF9yAP_-euZJu\",2592000]\";}'
+    '_csrf-frontend' => '3eb1a85f235e9cdef0614222c6b3476180324b095d03f69b993ef0a33c175eb9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"gUa2_XaekoJ74cbzCTkRFhjrc78_SaLO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/srconsultoresweb/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _identity-backend=daecede4dc8e419362a6da79b48b5751bc6f68961cf8092a7cb7d68cdcf6bbb8a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22GCITGJDn0avYixZ3tSuZF9yAP_-euZJu%22%2C2592000%5D%22%3B%7D; _csrf-frontend=3eb1a85f235e9cdef0614222c6b3476180324b095d03f69b993ef0a33c175eb9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22gUa2_XaekoJ74cbzCTkRFhjrc78_SaLO%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64421'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=destaques'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=destaques'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557765959.504
+    'REQUEST_TIME' => 1557765959
+]
+2019-05-13 16:46:05 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "destaques.php". in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('destaques.php', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 16:46:05 [::1][-][-][info][application] $_GET = [
+    'r' => 'destaques.php'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_identity-backend' => 'daecede4dc8e419362a6da79b48b5751bc6f68961cf8092a7cb7d68cdcf6bbb8a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[3,\"GCITGJDn0avYixZ3tSuZF9yAP_-euZJu\",2592000]\";}'
+    '_csrf-frontend' => '3eb1a85f235e9cdef0614222c6b3476180324b095d03f69b993ef0a33c175eb9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"gUa2_XaekoJ74cbzCTkRFhjrc78_SaLO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/srconsultoresweb/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _identity-backend=daecede4dc8e419362a6da79b48b5751bc6f68961cf8092a7cb7d68cdcf6bbb8a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22GCITGJDn0avYixZ3tSuZF9yAP_-euZJu%22%2C2592000%5D%22%3B%7D; _csrf-frontend=3eb1a85f235e9cdef0614222c6b3476180324b095d03f69b993ef0a33c175eb9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22gUa2_XaekoJ74cbzCTkRFhjrc78_SaLO%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64421'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=destaques.php'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=destaques.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557765965.379
+    'REQUEST_TIME' => 1557765965
+]
+2019-05-13 16:48:38 [::1][-][dtcf6clqcfljnol3pdaathe1p3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site-estaques". in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site-estaques', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 16:48:38 [::1][-][dtcf6clqcfljnol3pdaathe1p3][info][application] $_GET = [
+    'r' => 'site-estaques'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_csrf-backend' => '03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs\";}'
+    'advanced-frontend' => 'dtcf6clqcfljnol3pdaathe1p3'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-frontend' => '715e06829d1f0483734bae9f2ac8f90d88686b6576312dddf4db46eef74dcb77a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mzdWfN9DLfPv32giZXl2efCdyAT-UW0H\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _csrf-backend=03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs%22%3B%7D; advanced-frontend=dtcf6clqcfljnol3pdaathe1p3; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=715e06829d1f0483734bae9f2ac8f90d88686b6576312dddf4db46eef74dcb77a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mzdWfN9DLfPv32giZXl2efCdyAT-UW0H%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64588'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2destaques'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=site%2destaques'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557766118.073
+    'REQUEST_TIME' => 1557766118
+]
+2019-05-13 16:48:50 [::1][-][dtcf6clqcfljnol3pdaathe1p3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site-estaques". in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site-estaques', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 16:48:50 [::1][-][dtcf6clqcfljnol3pdaathe1p3][info][application] $_GET = [
+    'r' => 'site-estaques'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_csrf-backend' => '03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs\";}'
+    'advanced-frontend' => 'dtcf6clqcfljnol3pdaathe1p3'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-frontend' => '715e06829d1f0483734bae9f2ac8f90d88686b6576312dddf4db46eef74dcb77a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mzdWfN9DLfPv32giZXl2efCdyAT-UW0H\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _csrf-backend=03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs%22%3B%7D; advanced-frontend=dtcf6clqcfljnol3pdaathe1p3; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=715e06829d1f0483734bae9f2ac8f90d88686b6576312dddf4db46eef74dcb77a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mzdWfN9DLfPv32giZXl2efCdyAT-UW0H%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64602'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2destaques'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=site%2destaques'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557766130.605
+    'REQUEST_TIME' => 1557766130
+]
+2019-05-13 16:48:57 [::1][-][dtcf6clqcfljnol3pdaathe1p3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "sitedestaques". in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('sitedestaques', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 16:48:57 [::1][-][dtcf6clqcfljnol3pdaathe1p3][info][application] $_GET = [
+    'r' => 'sitedestaques'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_csrf-backend' => '03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs\";}'
+    'advanced-frontend' => 'dtcf6clqcfljnol3pdaathe1p3'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-frontend' => '715e06829d1f0483734bae9f2ac8f90d88686b6576312dddf4db46eef74dcb77a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mzdWfN9DLfPv32giZXl2efCdyAT-UW0H\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _csrf-backend=03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs%22%3B%7D; advanced-frontend=dtcf6clqcfljnol3pdaathe1p3; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=715e06829d1f0483734bae9f2ac8f90d88686b6576312dddf4db46eef74dcb77a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mzdWfN9DLfPv32giZXl2efCdyAT-UW0H%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64612'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sitedestaques'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=sitedestaques'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557766137.526
+    'REQUEST_TIME' => 1557766137
+]
+2019-05-13 16:49:17 [::1][-][dtcf6clqcfljnol3pdaathe1p3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "sitedestaques". in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('sitedestaques', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 16:49:17 [::1][-][dtcf6clqcfljnol3pdaathe1p3][info][application] $_GET = [
+    'r' => 'sitedestaques'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_csrf-backend' => '03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs\";}'
+    'advanced-frontend' => 'dtcf6clqcfljnol3pdaathe1p3'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-frontend' => '715e06829d1f0483734bae9f2ac8f90d88686b6576312dddf4db46eef74dcb77a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mzdWfN9DLfPv32giZXl2efCdyAT-UW0H\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _csrf-backend=03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs%22%3B%7D; advanced-frontend=dtcf6clqcfljnol3pdaathe1p3; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=715e06829d1f0483734bae9f2ac8f90d88686b6576312dddf4db46eef74dcb77a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mzdWfN9DLfPv32giZXl2efCdyAT-UW0H%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64632'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sitedestaques'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=sitedestaques'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557766157.189
+    'REQUEST_TIME' => 1557766157
+]
+2019-05-13 16:49:18 [::1][-][dtcf6clqcfljnol3pdaathe1p3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site-estaques". in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site-estaques', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 16:49:18 [::1][-][dtcf6clqcfljnol3pdaathe1p3][info][application] $_GET = [
+    'r' => 'site-estaques'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_csrf-backend' => '03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs\";}'
+    'advanced-frontend' => 'dtcf6clqcfljnol3pdaathe1p3'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-frontend' => '715e06829d1f0483734bae9f2ac8f90d88686b6576312dddf4db46eef74dcb77a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mzdWfN9DLfPv32giZXl2efCdyAT-UW0H\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _csrf-backend=03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs%22%3B%7D; advanced-frontend=dtcf6clqcfljnol3pdaathe1p3; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=715e06829d1f0483734bae9f2ac8f90d88686b6576312dddf4db46eef74dcb77a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mzdWfN9DLfPv32giZXl2efCdyAT-UW0H%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64632'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2destaques'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=site%2destaques'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557766158.574
+    'REQUEST_TIME' => 1557766158
+]
+2019-05-13 16:49:23 [::1][-][dtcf6clqcfljnol3pdaathe1p3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site-estaques". in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site-estaques', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 16:49:23 [::1][-][dtcf6clqcfljnol3pdaathe1p3][info][application] $_GET = [
+    'r' => 'site-estaques'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_csrf-backend' => '03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs\";}'
+    'advanced-frontend' => 'dtcf6clqcfljnol3pdaathe1p3'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-frontend' => '715e06829d1f0483734bae9f2ac8f90d88686b6576312dddf4db46eef74dcb77a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mzdWfN9DLfPv32giZXl2efCdyAT-UW0H\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/srconsultoresweb/frontend/web/index.php?'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _csrf-backend=03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs%22%3B%7D; advanced-frontend=dtcf6clqcfljnol3pdaathe1p3; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=715e06829d1f0483734bae9f2ac8f90d88686b6576312dddf4db46eef74dcb77a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mzdWfN9DLfPv32giZXl2efCdyAT-UW0H%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64632'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2destaques'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=site%2destaques'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557766163.348
+    'REQUEST_TIME' => 1557766163
+]
+2019-05-13 16:50:45 [::1][-][dtcf6clqcfljnol3pdaathe1p3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/estaques in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('estaques', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/estaques', Array)
+#2 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 16:50:45 [::1][-][dtcf6clqcfljnol3pdaathe1p3][info][application] $_GET = [
+    'r' => 'site/estaques'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_csrf-backend' => '03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs\";}'
+    'advanced-frontend' => 'dtcf6clqcfljnol3pdaathe1p3'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-frontend' => '289122ae3b72701b5f6b4b65977ee9e0c3f90b02112605a17e4670b0daa5c8b1a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"yohw6DUrdN4CkeMefiep1oIa0HqYU2yS\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _csrf-backend=03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs%22%3B%7D; advanced-frontend=dtcf6clqcfljnol3pdaathe1p3; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=289122ae3b72701b5f6b4b65977ee9e0c3f90b02112605a17e4670b0daa5c8b1a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22yohw6DUrdN4CkeMefiep1oIa0HqYU2yS%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64755'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Festaques'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=site%2Festaques'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557766245.225
+    'REQUEST_TIME' => 1557766245
+]
+2019-05-13 16:50:48 [::1][-][dtcf6clqcfljnol3pdaathe1p3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/destaques in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('destaques', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/destaques', Array)
+#2 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 16:50:48 [::1][-][dtcf6clqcfljnol3pdaathe1p3][info][application] $_GET = [
+    'r' => 'site/destaques'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_csrf-backend' => '03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs\";}'
+    'advanced-frontend' => 'dtcf6clqcfljnol3pdaathe1p3'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-frontend' => '21a3e83b212484a18942fbe34a63bda05f430829cf9df9ef52970b56b0eb26faa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"QqMIhiM0kdFQvkDG3iGx-nf5Kq-c1_7R\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _csrf-backend=03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs%22%3B%7D; advanced-frontend=dtcf6clqcfljnol3pdaathe1p3; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=21a3e83b212484a18942fbe34a63bda05f430829cf9df9ef52970b56b0eb26faa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QqMIhiM0kdFQvkDG3iGx-nf5Kq-c1_7R%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64755'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdestaques'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=site%2Fdestaques'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557766248.698
+    'REQUEST_TIME' => 1557766248
+]
+2019-05-13 16:50:51 [::1][-][dtcf6clqcfljnol3pdaathe1p3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/destaques in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('destaques', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/destaques', Array)
+#2 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 16:50:51 [::1][-][dtcf6clqcfljnol3pdaathe1p3][info][application] $_GET = [
+    'r' => 'site/destaques'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_csrf-backend' => '03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs\";}'
+    'advanced-frontend' => 'dtcf6clqcfljnol3pdaathe1p3'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-frontend' => '21a3e83b212484a18942fbe34a63bda05f430829cf9df9ef52970b56b0eb26faa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"QqMIhiM0kdFQvkDG3iGx-nf5Kq-c1_7R\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _csrf-backend=03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs%22%3B%7D; advanced-frontend=dtcf6clqcfljnol3pdaathe1p3; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=21a3e83b212484a18942fbe34a63bda05f430829cf9df9ef52970b56b0eb26faa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QqMIhiM0kdFQvkDG3iGx-nf5Kq-c1_7R%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64755'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdestaques'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=site%2Fdestaques'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557766251.622
+    'REQUEST_TIME' => 1557766251
+]
+2019-05-13 16:50:56 [::1][-][dtcf6clqcfljnol3pdaathe1p3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/destaques.php in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('destaques.php', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/destaques....', Array)
+#2 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 16:50:55 [::1][-][dtcf6clqcfljnol3pdaathe1p3][info][application] $_GET = [
+    'r' => 'site/destaques.php'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_csrf-backend' => '03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs\";}'
+    'advanced-frontend' => 'dtcf6clqcfljnol3pdaathe1p3'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-frontend' => '21a3e83b212484a18942fbe34a63bda05f430829cf9df9ef52970b56b0eb26faa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"QqMIhiM0kdFQvkDG3iGx-nf5Kq-c1_7R\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _csrf-backend=03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs%22%3B%7D; advanced-frontend=dtcf6clqcfljnol3pdaathe1p3; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=21a3e83b212484a18942fbe34a63bda05f430829cf9df9ef52970b56b0eb26faa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QqMIhiM0kdFQvkDG3iGx-nf5Kq-c1_7R%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64755'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdestaques.php'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=site%2Fdestaques.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557766255.985
+    'REQUEST_TIME' => 1557766255
+]
+2019-05-13 16:50:58 [::1][-][dtcf6clqcfljnol3pdaathe1p3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/destaques.php in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('destaques.php', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/destaques....', Array)
+#2 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 16:50:58 [::1][-][dtcf6clqcfljnol3pdaathe1p3][info][application] $_GET = [
+    'r' => 'site/destaques.php'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_csrf-backend' => '03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs\";}'
+    'advanced-frontend' => 'dtcf6clqcfljnol3pdaathe1p3'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-frontend' => '21a3e83b212484a18942fbe34a63bda05f430829cf9df9ef52970b56b0eb26faa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"QqMIhiM0kdFQvkDG3iGx-nf5Kq-c1_7R\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _csrf-backend=03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs%22%3B%7D; advanced-frontend=dtcf6clqcfljnol3pdaathe1p3; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=21a3e83b212484a18942fbe34a63bda05f430829cf9df9ef52970b56b0eb26faa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QqMIhiM0kdFQvkDG3iGx-nf5Kq-c1_7R%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64755'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdestaques.php'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=site%2Fdestaques.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557766258.039
+    'REQUEST_TIME' => 1557766258
+]
+2019-05-13 16:50:58 [::1][-][dtcf6clqcfljnol3pdaathe1p3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/destaques.php in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('destaques.php', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/destaques....', Array)
+#2 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 16:50:58 [::1][-][dtcf6clqcfljnol3pdaathe1p3][info][application] $_GET = [
+    'r' => 'site/destaques.php'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_csrf-backend' => '03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs\";}'
+    'advanced-frontend' => 'dtcf6clqcfljnol3pdaathe1p3'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-frontend' => '21a3e83b212484a18942fbe34a63bda05f430829cf9df9ef52970b56b0eb26faa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"QqMIhiM0kdFQvkDG3iGx-nf5Kq-c1_7R\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _csrf-backend=03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs%22%3B%7D; advanced-frontend=dtcf6clqcfljnol3pdaathe1p3; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=21a3e83b212484a18942fbe34a63bda05f430829cf9df9ef52970b56b0eb26faa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QqMIhiM0kdFQvkDG3iGx-nf5Kq-c1_7R%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64755'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdestaques.php'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=site%2Fdestaques.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557766258.491
+    'REQUEST_TIME' => 1557766258
+]
+2019-05-13 16:50:58 [::1][-][dtcf6clqcfljnol3pdaathe1p3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/destaques.php in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('destaques.php', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/destaques....', Array)
+#2 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 16:50:58 [::1][-][dtcf6clqcfljnol3pdaathe1p3][info][application] $_GET = [
+    'r' => 'site/destaques.php'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_csrf-backend' => '03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs\";}'
+    'advanced-frontend' => 'dtcf6clqcfljnol3pdaathe1p3'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-frontend' => '21a3e83b212484a18942fbe34a63bda05f430829cf9df9ef52970b56b0eb26faa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"QqMIhiM0kdFQvkDG3iGx-nf5Kq-c1_7R\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _csrf-backend=03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs%22%3B%7D; advanced-frontend=dtcf6clqcfljnol3pdaathe1p3; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=21a3e83b212484a18942fbe34a63bda05f430829cf9df9ef52970b56b0eb26faa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QqMIhiM0kdFQvkDG3iGx-nf5Kq-c1_7R%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64755'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdestaques.php'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=site%2Fdestaques.php'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557766258.866
+    'REQUEST_TIME' => 1557766258
+]
+2019-05-13 16:51:07 [::1][-][dtcf6clqcfljnol3pdaathe1p3][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\wamp64\www\srconsultoresweb\frontend\views\site\login.php in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\wamp64\\www\\s...', Array, Object(frontend\controllers\SiteController))
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('login', Array, Object(frontend\controllers\SiteController))
+#2 C:\wamp64\www\srconsultoresweb\frontend\controllers\SiteController.php(98): yii\base\Controller->render('login', Array)
+#3 [internal function]: frontend\controllers\SiteController->actionLogin()
+#4 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#7 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#8 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#10 {main}
+2019-05-13 16:51:07 [::1][-][dtcf6clqcfljnol3pdaathe1p3][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_csrf-backend' => '03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs\";}'
+    'advanced-frontend' => 'dtcf6clqcfljnol3pdaathe1p3'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-frontend' => '21a3e83b212484a18942fbe34a63bda05f430829cf9df9ef52970b56b0eb26faa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"QqMIhiM0kdFQvkDG3iGx-nf5Kq-c1_7R\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _csrf-backend=03cac5639d5ea129bba174d9602f2f3ea57792c631b4fa82a1ba7a397ef60068a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ks2RI0-p0DMvFGbcA9rfVAnCWcn2H4Zs%22%3B%7D; advanced-frontend=dtcf6clqcfljnol3pdaathe1p3; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=21a3e83b212484a18942fbe34a63bda05f430829cf9df9ef52970b56b0eb26faa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QqMIhiM0kdFQvkDG3iGx-nf5Kq-c1_7R%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '64791'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557766267.567
+    'REQUEST_TIME' => 1557766267
+]
+2019-05-13 18:18:29 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/destaques in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('destaques', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/destaques', Array)
+#2 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 18:18:28 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/destaques'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-backend' => '9ba13de196e44946ff116b5d435931dd95eaefd4fa451b2e4b2c27161103aa52a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"nZ-F7hJJ7JHKzvbVeBFJWiPWoJe6zQln\";}'
+    'advanced-backend' => 'v20uv4bqcgld1s23lor2hih4oj'
+    '_csrf-frontend' => '6627d6b4e37e5f63a3122ccbca9f709a8a7e1471602f02becfd21c7bc918416da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"j4u34A5YYgVUjnLeJJV_UqRhPW8Uxemi\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/srconsultoresweb/frontend/web/index.php?'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-backend=9ba13de196e44946ff116b5d435931dd95eaefd4fa451b2e4b2c27161103aa52a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22nZ-F7hJJ7JHKzvbVeBFJWiPWoJe6zQln%22%3B%7D; advanced-backend=v20uv4bqcgld1s23lor2hih4oj; _csrf-frontend=6627d6b4e37e5f63a3122ccbca9f709a8a7e1471602f02becfd21c7bc918416da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22j4u34A5YYgVUjnLeJJV_UqRhPW8Uxemi%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '53763'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdestaques'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=site%2Fdestaques'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557771508.881
+    'REQUEST_TIME' => 1557771508
+]
+2019-05-13 18:20:00 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/destaques in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('destaques', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/destaques', Array)
+#2 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-13 18:20:00 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/destaques'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-backend' => '9ba13de196e44946ff116b5d435931dd95eaefd4fa451b2e4b2c27161103aa52a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"nZ-F7hJJ7JHKzvbVeBFJWiPWoJe6zQln\";}'
+    'advanced-backend' => 'v20uv4bqcgld1s23lor2hih4oj'
+    '_csrf-frontend' => '6627d6b4e37e5f63a3122ccbca9f709a8a7e1471602f02becfd21c7bc918416da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"j4u34A5YYgVUjnLeJJV_UqRhPW8Uxemi\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/srconsultoresweb/frontend/web/index.php?'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-backend=9ba13de196e44946ff116b5d435931dd95eaefd4fa451b2e4b2c27161103aa52a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22nZ-F7hJJ7JHKzvbVeBFJWiPWoJe6zQln%22%3B%7D; advanced-backend=v20uv4bqcgld1s23lor2hih4oj; _csrf-frontend=6627d6b4e37e5f63a3122ccbca9f709a8a7e1471602f02becfd21c7bc918416da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22j4u34A5YYgVUjnLeJJV_UqRhPW8Uxemi%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '53878'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdestaques'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=site%2Fdestaques'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557771600.9
+    'REQUEST_TIME' => 1557771600
+]
+2019-05-14 08:16:44 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/destaques in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('destaques', Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/destaques', Array)
+#2 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2019-05-14 08:16:44 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/destaques'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-frontend' => 'd13fac5d747227639112ae0cc858f281f8b3a78c9a54ef286d9bdc773f5868ada:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"GQ7t658VJ9GVlbVmPUuxNuxdJh4PgWz5\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost/srconsultoresweb/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=d13fac5d747227639112ae0cc858f281f8b3a78c9a54ef286d9bdc773f5868ada%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22GQ7t658VJ9GVlbVmPUuxNuxdJh4PgWz5%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '54716'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fdestaques'
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/index.php?r=site%2Fdestaques'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557821804.435
+    'REQUEST_TIME' => 1557821804
+]
+2019-05-14 08:27:30 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\helpers\BaseHtml.php:151
+Stack trace:
+#0 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\helpers\BaseHtml.php(151): yii\base\ErrorHandler->handleError(8, 'Array to string...', 'C:\\wamp64\\www\\s...', 151, Array)
+#1 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\helpers\BaseHtml.php(415): yii\helpers\BaseHtml::tag('a', Array, Array)
+#2 C:\wamp64\www\srconsultoresweb\frontend\views\site\index.php(306): yii\helpers\BaseHtml::a(Array)
+#3 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(348): require('C:\\wamp64\\www\\s...')
+#4 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\wamp64\\www\\s...', Array)
+#5 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\wamp64\\www\\s...', Array, Object(frontend\controllers\SiteController))
+#6 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#7 C:\wamp64\www\srconsultoresweb\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#8 [internal function]: frontend\controllers\SiteController->actionIndex()
+#9 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#12 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#13 C:\wamp64\www\srconsultoresweb\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\wamp64\www\srconsultoresweb\frontend\web\index.php(16): yii\base\Application->run()
+#15 {main}
+2019-05-14 08:27:30 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
+    'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
+    'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
+    'olfsk' => 'olfsk46817097319327705'
+    'gowash_retina' => '1'
+    '_identity-frontend' => '44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QZzO868YftkKIxHTGgZZPT7VYNy-1GWK\",2592000]\";}'
+    '_csrf-frontend' => 'd13fac5d747227639112ae0cc858f281f8b3a78c9a54ef286d9bdc773f5868ada:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"GQ7t658VJ9GVlbVmPUuxNuxdJh4PgWz5\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _csrf-frontend=d13fac5d747227639112ae0cc858f281f8b3a78c9a54ef286d9bdc773f5868ada%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22GQ7t658VJ9GVlbVmPUuxNuxdJh4PgWz5%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\GnuPG\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\bin\\php\\php7.0.23;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\System32;C:\\Windows;C:\\Windows\\System32\\wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/srconsultoresweb/frontend/web/index.php'
+    'REMOTE_PORT' => '55267'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/srconsultoresweb/frontend/web/'
+    'SCRIPT_NAME' => '/srconsultoresweb/frontend/web/index.php'
+    'PHP_SELF' => '/srconsultoresweb/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1557822450.728
+    'REQUEST_TIME' => 1557822450
+]
