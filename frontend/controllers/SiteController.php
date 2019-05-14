@@ -77,14 +77,14 @@ class SiteController extends Controller
     public function actionIndex()
     {
        
-        $noticias = Noticias::find()->all();
+        $model = Noticias::find()->all();
 
         $searchModelNoticias = new NoticiasSearch();
         $searchModelNoticias->load(Yii::$app->request->post());
         $dataProvider = $searchModelNoticias->search(Yii::$app->request->queryParams);
 
         return $this->render('index',[
-            'noticias' => $noticias,
+            'model' => $model,
             'searchModelNoticias' => $searchModelNoticias,
             'dataProvider' => $dataProvider,
 
