@@ -51,4 +51,5 @@ class Noticias extends \yii\db\ActiveRecord
             'mes' => 'Mes',
         ];
     }
+
 }
