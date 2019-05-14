@@ -89,6 +89,7 @@ class SiteController extends Controller
             'dataProvider' => $dataProvider,
 
         ]);
+
     }
 
     public function actionloadImage()
