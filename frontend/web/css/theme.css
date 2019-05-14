@@ -41,6 +41,15 @@ li {
 	body {
 		font-size: 13px;
 	}
+	#Inicio {
+		font-size: 103px;
+	}
+}
+@media (max-width: 500px) {
+
+	.Inicio {
+		font-size: 1093px;
+	}
 }
 /* Header */
 #header {
