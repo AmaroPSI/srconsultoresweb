@@ -1,6 +1,8 @@
 <?php
 namespace frontend\controllers;
 
+use common\models\Noticias;
+use common\models\NoticiasSearch;
 use frontend\models\ResendVerificationEmailForm;
 use frontend\models\VerifyEmailForm;
 use Yii;
@@ -74,14 +76,32 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+       
+        $noticias = Noticias::find()->all();
+
+        $searchModelNoticias = new NoticiasSearch();
+        $searchModelNoticias->load(Yii::$app->request->post());
+        $dataProvider = $searchModelNoticias->search(Yii::$app->request->queryParams);
+
+        return $this->render('index',[
+            'noticias' => $noticias,
+            'searchModelNoticias' => $searchModelNoticias,
+            'dataProvider' => $dataProvider,
+
+        ]);
     }
 
-    /**
-     * Logs in a user.
-     *
-     * @return mixed
-     */
+    public function actionloadImage()
+    {  
+        mysqli_connect("localhost","root","","srcdb"); //keep your db name
+        $sql = "SELECT * FROM noticias order by id desc limit 1";
+        $sth = $db->query($sql);
+        $result=mysqli_fetch_array($sth);
+        header('Content-Type: image/jpeg');
+        print $result['imagem']; 
+        exit(); 
+    }
+
     public function actionLogin()
     {
         if (!Yii::$app->user->isGuest) {

@@ -1,6 +1,6 @@
 <?php
 
-namespace backend\controllers;
+namespace app\controllers;
 
 use Yii;
 use common\models\Noticias;
@@ -8,7 +8,6 @@ use common\models\NoticiasSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use yii\web\UploadedFile;
 
 /**
  * NoticiasController implements the CRUD actions for Noticias model.
@@ -67,15 +66,7 @@ class NoticiasController extends Controller
     {
         $model = new Noticias();
 
-        if ($model->load(Yii::$app->request->post())) {
-            $model->save();
-            $id = $model->id;
-            $image= UploadedFile::getInstance($model, 'imagem');
-            $imgName='imagem_'.$id.'.'.$image->getExtension();
-            $model-> imagem = $imgName;
-            $model->save();
-
-
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         }
 
