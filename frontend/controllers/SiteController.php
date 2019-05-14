@@ -76,8 +76,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-       
-        $model = Noticias::find()->orderBy(['id', 'DESC'])->limit(4);
+        $model = Noticias::find()->orderBy('id desc')->limit(4)->all();
 
         $searchModelNoticias = new NoticiasSearch();
         $searchModelNoticias->load(Yii::$app->request->post());
@@ -89,19 +88,8 @@ class SiteController extends Controller
             'dataProvider' => $dataProvider,
 
         ]);
-
     }
 
-    public function actionloadImage()
-    {  
-        mysqli_connect("localhost","root","","srcdb"); //keep your db name
-        $sql = "SELECT * FROM noticias order by id desc limit 1";
-        $sth = $db->query($sql);
-        $result=mysqli_fetch_array($sth);
-        header('Content-Type: image/jpeg');
-        print $result['imagem']; 
-        exit(); 
-    }
 
     public function actionLogin()
     {
