@@ -77,7 +77,7 @@ class SiteController extends Controller
     public function actionIndex()
     {
        
-        $model = Noticias::find()->all();
+        $model = Noticias::find()->orderBy(['id', 'DESC'])->limit(4);
 
         $searchModelNoticias = new NoticiasSearch();
         $searchModelNoticias->load(Yii::$app->request->post());
