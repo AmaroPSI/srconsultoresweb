@@ -20,7 +20,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <?= Html::a('Delete', ['delete', 'id' => $model->id], [
             'class' => 'btn btn-danger',
             'data' => [
-                'confirm' => 'Are you sure you want to delete this item?',
+                'confirm' => 'Tem a certeza que pretende apagar esta notícia?',
                 'method' => 'post',
             ],
         ]) ?>
@@ -29,8 +29,12 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
+                [
+                    'attribute' => 'imagem',
+                    'value' => 'http://localhost/srconsultoresweb/frontend/web/noticias'. '/' . $model->imagem,
+                    'format' => ['image',['width' => '100', 'height' => '100']]
+                ],
             'id',
-            'imagem',
             'titulo',
             'texto:ntext',
             'dia',
