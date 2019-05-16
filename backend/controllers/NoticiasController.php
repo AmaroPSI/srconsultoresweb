@@ -98,20 +98,27 @@ class NoticiasController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post())) {
+
             $imageInstance = UploadedFile::getInstance($model,'imagem');
-            $randm = rand(278, 99999);
-            $fileName = "{$randm}-{$imageInstance}";
-            $imagem = (empty($imageInstance))? $model->imagem : $fileName ;
-            $model->imagem = $imagem;
-            if ($model->save(false))
-            {
-               $imageInstance->saveAs('../../frontend/web/noticias/' . $fileName);
+            $fileName = "{$imageInstance}";
+
+            if ($fileName != null){
+
+                $model->save();
+                $noticiasId = $model->id;
+                $imagem = UploadedFile::getInstance($model,'imagem');
+                $image_name = 'noticiaID_' . $noticiasId . '.' . $imagem->getExtension();
+                $imagem->saveAs('../../frontend/web/noticias/' . '/' . $image_name);
+                $model->imagem = $image_name;
+                $model->save();
+
                 return $this->redirect(['view', 'id' => $model->id]);
-            } else
-            {
-                return $this->render('create', [
-                    'model' => $model,
-                ]);
+
+            } else{
+                $imagem = (empty($imageInstance))? $model->imagem : $fileName ;
+                $model->imagem = $imagem;
+
+                return $this->redirect(['view', 'id' => $model->id]);
             }
         } else
         {

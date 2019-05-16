@@ -4,19 +4,7 @@
     <list default="true" id="e7224bc8-2301-4f66-8233-4219d9a3918a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/NoticiasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/NoticiasController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/noticias/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/noticias/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/models/Noticias.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/Noticias.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/debug/index.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/site/destaques.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/site/destaques.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/site/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/web/noticias/Hey men.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/web/noticias/Noticia 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/web/noticias/Noticia 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/web/noticias/Noticia 3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/web/noticias/Noticia 4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/web/noticias/Noticia 5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/web/noticias/Noticia 6.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,23 +63,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="2990" />
+          <entry key="php" value="3114" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="2990" />
+          <entry key="PHP" value="3114" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.39" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -101,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/models/NoticiasSearch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
+            <state relative-caret-position="663">
               <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <element signature="e#33#52#0#PHP" expanded="true" />
@@ -113,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/models/Noticias.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="697">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -122,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/views/site/destaques.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
+            <state relative-caret-position="1717">
               <caret line="102" column="26" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
               <folding>
                 <element signature="e#7#34#0#PHP" expanded="true" />
@@ -134,8 +123,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/controllers/NoticiasController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="107" column="82" lean-forward="true" selection-start-line="107" selection-start-column="82" selection-end-line="107" selection-end-column="82" />
+            <state relative-caret-position="164">
+              <caret line="115" selection-start-line="115" selection-end-line="115" />
               <folding>
                 <element signature="e#39#47#0#PHP" expanded="true" />
               </folding>
@@ -146,7 +135,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="5270">
               <caret line="316" column="111" selection-start-line="316" selection-start-column="111" selection-end-line="316" selection-end-column="111" />
               <folding>
                 <element signature="e#7#34#0#PHP" expanded="true" />
@@ -158,7 +147,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
+            <state relative-caret-position="4488">
               <caret line="278" column="30" selection-start-line="278" selection-start-column="30" selection-end-line="278" selection-end-column="30" />
               <folding>
                 <element signature="e#39#66#0#PHP" expanded="true" />
@@ -338,7 +327,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -428,6 +416,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -478,18 +467,18 @@
       <workItem from="1557768484416" duration="2823000" />
       <workItem from="1557821737730" duration="13361000" />
       <workItem from="1557857138073" duration="1472000" />
-      <workItem from="1557907875129" duration="13823000" />
+      <workItem from="1557907875129" duration="22041000" />
+      <workItem from="1557940919237" duration="2153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76735000" />
+    <option name="totallyTimeSpent" value="87106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18255034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1852349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -715,26 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="316" column="111" selection-start-line="316" selection-start-column="111" selection-end-line="316" selection-end-column="111" />
-          <folding>
-            <element signature="e#7#34#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/NoticiasSearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="e#33#52#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/views/noticias/_form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -742,17 +711,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/NoticiasSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#33#52#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/models/Noticias.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="697">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/views/site/destaques.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
+        <state relative-caret-position="1717">
           <caret line="102" column="26" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
+          <folding>
+            <element signature="e#7#34#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5270">
+          <caret line="316" column="111" selection-start-line="316" selection-start-column="111" selection-end-line="316" selection-end-column="111" />
           <folding>
             <element signature="e#7#34#0#PHP" expanded="true" />
           </folding>
@@ -761,7 +750,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
+        <state relative-caret-position="4488">
           <caret line="278" column="30" selection-start-line="278" selection-start-column="30" selection-end-line="278" selection-end-column="30" />
           <folding>
             <element signature="e#39#66#0#PHP" expanded="true" />
@@ -771,8 +760,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/controllers/NoticiasController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="107" column="82" lean-forward="true" selection-start-line="107" selection-start-column="82" selection-end-line="107" selection-end-column="82" />
+        <state relative-caret-position="164">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
           <folding>
             <element signature="e#39#47#0#PHP" expanded="true" />
           </folding>
