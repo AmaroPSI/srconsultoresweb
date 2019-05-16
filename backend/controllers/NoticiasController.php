@@ -126,15 +126,9 @@ class NoticiasController extends Controller
                 'model' => $model,
             ]);
         }
-
-            /*if ($model->load(Yii::$app->request->post()) && $model->save()) {
-                return $this->redirect(['view', 'id' => $model->id]);
-            }
-
-            return $this->render('update', [
-                'model' => $model,
-            ]);*/
-
+        return $this->render('update', [
+            'model' => $model,
+        ]);
 
     }
 

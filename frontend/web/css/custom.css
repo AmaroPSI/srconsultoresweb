@@ -2,3 +2,8 @@
 .centerPdf{
 	text-align: center;
 }
+@media(max-width: 1000px) {
+  .Inicio {
+   font-size: 10px;
+  }
+}

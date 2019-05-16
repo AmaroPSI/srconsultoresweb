@@ -246,6 +246,7 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1557841193.945
     'REQUEST_TIME' => 1557841193
 ]
+
 2019-05-15 09:25:35 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in C:\wamp64\www\srconsultoresweb\frontend\views\site\index.php:317
 Stack trace:
 #0 C:\wamp64\www\srconsultoresweb\frontend\views\site\index.php(317): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\wamp64\\www\\s...', 317, Array)
@@ -269,6 +270,7 @@ $_POST = []
 $_FILES = []
 
 $_COOKIE = [
+
     'Webstorm-9b1e882d' => 'cef382a3-e553-4d6b-84a2-b1b9178e5562'
     'Phpstorm-2d701e70' => '47034a8b-7445-45ed-ab93-3de906270b16'
     'hblid' => 't8xEsh6kGO70VyOz3m39N0Pabjoa39AR'
@@ -371,7 +373,6 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\WINDOWS'
     'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
-'
     'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
     'SERVER_NAME' => 'localhost'
     'SERVER_ADDR' => '::1'
@@ -436,6 +437,7 @@ $_SERVER = [
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
     'HTTP_ACCEPT_LANGUAGE' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7'
     'HTTP_COOKIE' => 'Webstorm-9b1e882d=cef382a3-e553-4d6b-84a2-b1b9178e5562; Phpstorm-2d701e70=47034a8b-7445-45ed-ab93-3de906270b16; hblid=t8xEsh6kGO70VyOz3m39N0Pabjoa39AR; olfsk=olfsk46817097319327705; gowash_retina=1; _identity-frontend=44df43e014f2ae07679d799f2ddd7fac618b26a1db366e20e55cdc66c09f1c86a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QZzO868YftkKIxHTGgZZPT7VYNy-1GWK%22%2C2592000%5D%22%3B%7D; _identity-backend=3187b7f98fa364d9d821f4728031acbb84a3f6e4216a95604a4e7de9f60e9abca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22rrHLD_oX52104vmHoXfz-aNmhVmkXMsG%22%2C2592000%5D%22%3B%7D; advanced-backend=uqr5pi73bftqprdstps88cfak6; _csrf-backend=daf78a10b06d7a215c463eac21445a4db3e505ae92e8307214316d0286d4c63da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225a3njEPnFu83WTw0ZZUBDjPQZNnzFxDk%22%3B%7D; _csrf-frontend=1075cceaaaa1215369ff18861796ad1d1e93b33807b6fe991438218b354dd8b1a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22p5UIehfWOManx54Mmd3Yp0tWzPcjJZuP%22%3B%7D'
@@ -444,6 +446,7 @@ $_SERVER = [
     'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\WINDOWS'
+
     'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/7.1.9 Server at localhost Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/7.1.9'
@@ -451,6 +454,7 @@ $_SERVER = [
     'SERVER_ADDR' => '::1'
     'SERVER_PORT' => '80'
     'REMOTE_ADDR' => '::1'
+
     'DOCUMENT_ROOT' => 'C:/wamp64/www'
     'REQUEST_SCHEME' => 'http'
     'CONTEXT_PREFIX' => ''
