@@ -68,15 +68,12 @@ class NoticiasController extends Controller
         $model = new Noticias();
 
         if ($model->load(Yii::$app->request->post())) {
-
-
-            $image_name = $model->titulo;
-            $model->imagem = UploadedFile::getInstance($model,'imagem');
-            $model->imagem->saveAs('../../frontend/web/noticias/'.$image_name.'.'.$model->imagem->extension );
-
-
-            $model->imagem = '../../frontend/web/noticias/'.$image_name.'.'.$model->imagem->extension;  
-
+            $model->save();
+            $noticiasId = $model->id;
+            $imagem = UploadedFile::getInstance($model,'imagem');
+            $image_name = 'noticiaID_' . $noticiasId . '.' . $imagem->getExtension();
+            $imagem->saveAs('../../frontend/web/noticias/' . '/' . $image_name);
+            $model->imagem = $image_name;
             $model->save();
 
             return $this->redirect(['view', 'id' => $model->id]);
@@ -100,13 +97,39 @@ class NoticiasController extends Controller
     {
         $model = $this->findModel($id);
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+        if ($model->load(Yii::$app->request->post())) {
+
+            $imageInstance = UploadedFile::getInstance($model,'imagem');
+            $fileName = "{$imageInstance}";
+
+            if ($fileName != null){
+
+                $model->save();
+                $noticiasId = $model->id;
+                $imagem = UploadedFile::getInstance($model,'imagem');
+                $image_name = 'noticiaID_' . $noticiasId . '.' . $imagem->getExtension();
+                $imagem->saveAs('../../frontend/web/noticias/' . '/' . $image_name);
+                $model->imagem = $image_name;
+                $model->save();
+
+                return $this->redirect(['view', 'id' => $model->id]);
+
+            } else{
+                $imagem = (empty($imageInstance))? $model->imagem : $fileName ;
+                $model->imagem = $imagem;
+
+                return $this->redirect(['view', 'id' => $model->id]);
+            }
+        } else
+        {
+            return $this->render('update', [
+                'model' => $model,
+            ]);
         }
- 
         return $this->render('update', [
             'model' => $model,
         ]);
+
     }
 
     /**

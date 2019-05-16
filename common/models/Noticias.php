@@ -31,10 +31,11 @@ class Noticias extends \yii\db\ActiveRecord
     {
         return [
             [['titulo', 'texto', 'dia', 'mes'], 'required'],
-            [['imagem', 'texto'], 'string'],
+            [['texto', 'mes'], 'string'],
             [['dia'], 'integer'],
             [['mes'], 'string', 'max' => 3],
             [['titulo'], 'string', 'max' => 150],
+            [['imagem'], 'string', 'max' => 200],
             [['imagem'], 'file', 'extensions' => 'png,jpg,jpeg'],
 
         ];
